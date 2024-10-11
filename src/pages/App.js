@@ -37,6 +37,8 @@ function App() {
     console.log('Removendo registro', id);
 
     // utilizar filter.
+    setRepos(prev.filter((id) => prev.inludes(!currentRepo.id)))
+    
   }
 
 
